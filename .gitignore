@@ -1,0 +1,56 @@
+# Dependencias
+/vendor/
+/node_modules/
+
+# Archivos de configuración con credenciales
+.env
+.env.local
+.env.*.local
+config/credentials.php
+config/local.php
+
+# Archivos de base de datos y backups
+*.sql
+*.sqlite
+*.db
+backup/
+backups/
+
+# Logs
+*.log
+logs/
+error_log
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos temporales
+*.tmp
+*.temp
+cache/
+tmp/
+temp/
+
+# Archivos de IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos de MAMP/XAMPP/WAMP
+htdocs/*/tmp/
+htdocs/*/logs/
+
+# Archivos de sesión PHP
+sessions/
+*.sess
+
+# Archivos subidos por usuarios (si aplica)
+uploads/
+uploads/*
+!uploads/.gitkeep
+public/uploads/
+storage/
