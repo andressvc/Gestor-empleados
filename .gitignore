@@ -10,7 +10,6 @@ config/credentials.php
 config/local.php
 
 # Archivos de base de datos y backups
-*.sql
 *.sqlite
 *.db
 backup/
