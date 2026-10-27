@@ -4,6 +4,6 @@
 2. Ejecutar `database.sql` en MySQL (phpMyAdmin > Importar).
 3. Copiar la carpeta del proyecto a `htdocs` (XAMPP) o `www` (Laragon).
 4. Revisar usuario y contraseña en `config/database.php`.
-5. Abrir http://localhost/empleados/index.php
+5. Abrir http://localhost/Gestor-empleados/index.php
 
 Estructura MVC: `models/` (acceso a BD), `views/` (HTML), `controllers/` (lógica), `index.php` (enrutador).
