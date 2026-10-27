@@ -36,7 +36,7 @@ $textoNoHayEmpleados = 'No hay empleados registrados';
         </div>
     </nav>
 
-    //Modal
+    <?php //Modal ?>
     <div id="modalSimple" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.7); z-index:99999; align-items:center; justify-content:center;">
         <div style="background:#fff; padding:25px 30px; border:1px solid #ccc; border-radius:6px; min-width:340px; max-width:420px; text-align:center;">
             <div id="modalSimpleTexto" style="margin-bottom:18px; font-size:16px;"></div>
